@@ -11,7 +11,27 @@ h1{
     text-shadow: 0 0 10px #000000;
     color: #ffffff;
 }
-
+/*=================== Label Box ================*/
+.label-box{
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    margin-left: -75px;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-family: cursive;
+    text-decoration:none;
+    
+}
+.label-box a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.label-box a:visited{
+    color: white;
+}
 /*=================== SUN ================*/
 
 #sun{
@@ -218,25 +238,8 @@ h1{
 #container{
     transform: scale(0.8 ,0.8) translate(0, 700px);
 }
-/*=================== Label Box ================*/
-.label-box{
-    position: absolute;
-    width: 150px;
-    left: 50%;
-    margin-left: -75px;
-    text-align: center;
-    color: #ffffff;
-    font-weight: 100;
-    font-family: sans-serif;
-}
-.label-box a{
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-}
-.label-box a:visited{
-    color: #ffffff;
-}
+
+
 /*=================== Animation ================*/
 @keyframes spin-left{
     100%{
